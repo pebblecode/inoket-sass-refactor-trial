@@ -24,7 +24,7 @@ gulp.task('server', function(){
   var server = connect();
 
   server.use(connectLivereload({port: lrPort}));
-  server.use(serveStatic(path.src));
+  server.use(serveStatic("inoket-preview/"));
   server.listen(localPort);
 
   console.log("\nlocal server running at http://localhost:" + localPort + "/\n");
@@ -37,7 +37,7 @@ gulp.task('sass', function(){
       sourceComments: 'normal'
     }).on('error', sass.logError))
     .pipe(prefix())
-    .pipe(gulp.dest(path.css))
+    .pipe(gulp.dest("inoket-preview/new-css"))
     .pipe(gulpLivereload());
 })
 
