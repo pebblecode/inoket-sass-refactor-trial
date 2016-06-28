@@ -1,40 +1,45 @@
-//=============================================
-// IMPORTS
-//=============================================
-// normalize.css v3.0.0 | MIT License | git.io/normalize
-@import "_normalize.scss";
+// ==============================================
+// cirrus-frontend-toolkit styles
+// ==============================================
+@import "frontend-toolkit/_breadcrumb.scss";
+@import "frontend-toolkit/_browse-list.scss";
+@import "frontend-toolkit/_buttons.scss";
+@import "frontend-toolkit/_contact-details.scss";
+@import "frontend-toolkit/_digital-marketplace-colours.scss";
+@import "frontend-toolkit/_document.scss";
+@import "frontend-toolkit/_framework-notice.scss";
+@import "frontend-toolkit/_grids.scss";
+@import "frontend-toolkit/_inoket-colours.scss";
+@import "frontend-toolkit/_instruction-list.scss";
+@import "frontend-toolkit/_link-button.scss";
+@import "frontend-toolkit/_not-ie-conditional.scss";
+@import "frontend-toolkit/_notification-banners.scss";
+@import "frontend-toolkit/_page-headings.scss";
+@import "frontend-toolkit/_phase-banner.scss";
+@import "frontend-toolkit/_previous-next-navigation.scss";
+@import "frontend-toolkit/_secondary-action-link.scss";
+@import "frontend-toolkit/_service-id.scss";
+@import "frontend-toolkit/_temporary-message.scss";
 
-// define mixins & functions
-@import "_mixins.scss";
+@import "frontend-toolkit/forms/_hint.scss";
+@import "frontend-toolkit/forms/_keyword-search.scss";
+@import "frontend-toolkit/forms/_list-entry.scss";
+@import "frontend-toolkit/forms/_option-select.scss";
+@import "frontend-toolkit/forms/_pricing.scss";
+@import "frontend-toolkit/forms/_questions.scss";
+@import "frontend-toolkit/forms/_selection-buttons.scss";
+@import "frontend-toolkit/forms/_summary.scss";
+@import "frontend-toolkit/forms/_textboxes.scss";
+@import "frontend-toolkit/forms/_upload.scss";
+@import "frontend-toolkit/forms/_validation.scss";
+@import "frontend-toolkit/forms/_word-counter.scss";
 
-//=============================================
-// VARIABLES
-//=============================================
-$paper:  white;
-$ink:    black;
+@import "frontend-toolkit/search/_search-result.scss";
+@import "frontend-toolkit/search/_search-summary.scss";
 
-//=============================================
-// BASCIS
-//=============================================
-*,
-*::before,
-*:after {
-  box-sizing: border-box;
-}
+@import "frontend-toolkit/shared_placeholders/_temporary-messages.scss";
+@import "frontend-toolkit/shared_placeholders/_visuallyhidden.scss";
 
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-html,
-body {
-  background-color: $paper;
-  color: $ink;
-  font-family: sans-serif;
-  line-height: 1.4;
-}
-
-//=============================================
-// STYLES
-//=============================================
+@import "frontend-toolkit/shared_scss/_dmspeak.scss";
+@import "frontend-toolkit/shared_scss/_lists.scss";
+@import "frontend-toolkit/shared_scss/_reset.scss";
