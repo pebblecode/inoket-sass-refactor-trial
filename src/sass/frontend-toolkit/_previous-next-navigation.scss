@@ -4,8 +4,8 @@ https://github.com/alphagov/static/blob/a9d462e71709d2ff6348bcce7e8c625af2b86114
 and
 https://github.com/alphagov/static/blob/da8aeeaa749093eab30286d7fc9f965533b66f47/app/assets/stylesheets/styleguide/_conditionals2.scss
 */
-@import "_colours.scss";
-@import "_typography.scss";
+@import "../_colours.scss";
+@import "../_typography.scss";
 
 // Media query helpers. These make producing IE layouts
 // super easy.

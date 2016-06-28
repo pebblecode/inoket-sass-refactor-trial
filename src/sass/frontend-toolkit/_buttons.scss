@@ -1,6 +1,6 @@
-@import "_colours.scss";
-@import "design-patterns/_buttons.scss";
-@import "_typography.scss";
+@import "../_colours.scss";
+@import "../design-patterns/_buttons.scss";
+@import "../_typography.scss";
 
 .button-save {
   @include button(#4FE4C5);

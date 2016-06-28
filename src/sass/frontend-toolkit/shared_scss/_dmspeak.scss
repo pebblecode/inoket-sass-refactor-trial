@@ -1,4 +1,4 @@
-@import "_typography.scss";
+@import "../../_typography.scss";
 @import "lists.scss";
 
 .dmspeak {
@@ -17,7 +17,7 @@
     padding-bottom: 10px;
   }
 
-  p + ul, 
+  p + ul,
   p + ol {
     @include list-spacing($list-margin-top: -10px, $list-item-margin-bottom: 0)
   }

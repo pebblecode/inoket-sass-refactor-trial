@@ -1,7 +1,7 @@
-@import "_colours.scss";
-@import "_measurements.scss";
-@import "_shims.scss";
-@import "_typography.scss";
+@import "../../_colours.scss";
+@import "../../_measurements.scss";
+@import "../../_shims.scss";
+@import "../../_typography.scss";
 
 @include media($min-width: 959px) {
   .column-two-thirds .pricing {

@@ -1,0 +1,41 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+/* line 6, /Users/mark/repos/inoket-sass-refactor-trial/src/sass/frontend-toolkit/pages-builder/grids/index.scss */
+.grid-example {
+  background: rgba(177, 14, 30, 0.1);
+  box-shadow: inset -15px 0 0 0 rgba(177, 14, 30, 0.1), inset 15px 0 0 0 rgba(177, 14, 30, 0.1), inset 0 0 0 1px rgba(177, 14, 30, 0.3);
+  min-height: 20vh;
+}
+
+/* line 14, /Users/mark/repos/inoket-sass-refactor-trial/src/sass/frontend-toolkit/pages-builder/grids/index.scss */
+.grid-example p {
+  margin: 0;
+  color: rgba(177, 14, 30, 0.3);
+}

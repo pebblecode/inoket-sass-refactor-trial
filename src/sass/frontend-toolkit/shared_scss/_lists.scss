@@ -1,7 +1,7 @@
-@import "frontend-toolkit/shared_scss/_reset.scss";
-@import "_measurements.scss";
-@import "_conditionals.scss";
-@import "_typography.scss";
+@import "_reset.scss";
+@import "../../_measurements.scss";
+@import "../../_conditionals.scss";
+@import "../../_typography.scss";
 
 @mixin list-spacing($list-margin-top: 5px, $list-item-margin-bottom: 5px) {
   margin-top: #{$list-margin-top};
