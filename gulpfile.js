@@ -31,7 +31,7 @@ gulp.task('server', function(){
 });
 
 gulp.task('sass', function(){
-  gulp.src(path.sass)
+   gulp.src("src/sass/styles.scss")
     .pipe(sass({
       outputStyle: [ 'expanded' ],
       sourceComments: 'normal'
