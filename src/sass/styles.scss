@@ -43,3 +43,22 @@
 @import "frontend-toolkit/shared_scss/_dmspeak.scss";
 @import "frontend-toolkit/shared_scss/_lists.scss";
 @import "frontend-toolkit/shared_scss/_reset.scss";
+
+// ==============================================
+// cirrus-base-template styles
+// ==============================================
+@import "base/styleguide/_colours.scss";
+@import "base/styleguide/_print.scss";
+
+@import "base/_accessibility.scss";
+@import "base/_basic.scss";
+@import "base/_core-print.scss";
+@import "base/_footer.scss";
+@import "base/_header.scss";
+@import "base/fonts-ie8.css";
+@import "base/fonts.css";
+@import "base/govuk-template-ie6.scss";
+@import "base/govuk-template-ie7.scss";
+@import "base/govuk-template-ie8.scss";
+@import "base/govuk-template-print.scss";
+@import "base/govuk-template.scss";
