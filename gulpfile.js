@@ -30,6 +30,7 @@ gulp.task('server', function(){
   console.log("\nlocal server running at http://localhost:" + localPort + "/\n");
 });
 
+// compile sass
 gulp.task('sass', function(){
    gulp.src("src/sass/styles.scss")
     .pipe(sass({

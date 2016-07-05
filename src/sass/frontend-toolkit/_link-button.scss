@@ -6,7 +6,7 @@
 .link-button,
 a.link-button {
 
-  background: $link-hover-colour;
+  background: red;
   display: block;
   padding: 6px 0;
   color: $white;
@@ -20,7 +20,7 @@ a.link-button {
   text-align: center;
 
   &:hover {
-    background: $link-colour;
+    background: red;
   }
 
 }
