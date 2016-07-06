@@ -1,0 +1,75 @@
+@import "styles.scss";
+
+
+// ==============================================
+// cirrus-supplier-frontend styles
+// ==============================================
+@import "supplier/_text.scss";
+@import "supplier/_footer.scss";
+@import "supplier/_forms.scss";
+
+@import "supplier/_single-question-page.scss";
+@import "supplier/_single-summary-page.scss";
+
+@import "supplier/_service-status.scss";
+@import "supplier/_view-service-link.scss";
+@import "supplier/_framework-application.scss";
+@import "supplier/_assurance-question.scss";
+@import "supplier/_supplier-declaration.scss";
+@import "supplier/_updates.scss";
+@import "supplier/_service_submission.scss";
+@import "supplier/_brief-response.scss";
+
+@import "supplier/_create_supplier.scss";
+
+
+//Gov UK overrides - REMOVE?
+@import "supplier/_phase_banner.scss";
+@import "supplier/_reset.scss";
+
+
+
+// Path to assets for use with file-url()
+$path: "/suppliers/static/images/";
+
+// Inoket front end toolkit components
+// @import "forms/word-counter";
+// @import "forms/list-entry";
+
+
+#wrapper, .wrapper {
+  @extend %site-width-container;
+}
+
+#content {
+  @extend %contain-floats;
+  clear: both;
+  margin-bottom: $gutter * 2;
+}
+
+
+/* Blocks shared between multiple selectors */
+// @import "shared_placeholders/_temporary-messages.scss";
+
+/* Classes shared between multiple apps */
+// @import "shared_scss/_lists.scss";
+// @import "shared_scss/_dmspeak.scss";
+
+
+.filter-field-text {
+  @include core-16;
+  @include box-sizing(border-box);
+  width: 100%;
+  padding: 5px;
+}
+
+.return-to-top {
+  display: block;
+  @include core-19;
+  margin: (1.5 * $gutter) 0 (2 * $gutter);
+}
+
+.padding-bottom-small {
+  padding-bottom: 10px;
+}
+

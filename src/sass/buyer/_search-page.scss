@@ -1,4 +1,4 @@
-@import "../frontend-toolkit/search/_search-summary.scss";
+@import "../toolkit/frontend-toolkit/search/_search-summary.scss";
 
 .search-summary {
   padding: 0 0 $gutter-half;
@@ -11,7 +11,7 @@
   }
 }
 
-@import "../frontend-toolkit/search/_search-result.scss";
+@import "../toolkit/frontend-toolkit/search/_search-result.scss";
 
 em.search-result-highlighted-text {
   font-style: normal;

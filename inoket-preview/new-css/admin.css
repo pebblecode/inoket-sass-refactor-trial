@@ -1,0 +1,1061 @@
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+/* line 3, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/* line 89, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+main {
+  display: block;
+}
+
+/* line 93, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 98, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 103, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+body {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  /* line 103, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
+  body {
+    font-size: 19px;
+    line-height: 1.31579;
+  }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+/* line 46, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_shims.scss */
+.grid-row:after, .diff .revision-dates:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+#wrapper {
+  max-width: 960px;
+  margin: 0 15px;
+}
+
+@media (min-width: 641px) {
+  /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+  #wrapper {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 1020px) {
+  /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+  #wrapper {
+    margin: 0 auto;
+  }
+}
+
+/* line 60, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+.grid-row {
+  margin: 0 -15px;
+}
+
+/* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_layout.scss */
+#global-header-bar {
+  background: #b10e1e;
+}
+
+/* line 8, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_layout.scss */
+#wrapper {
+  padding-bottom: 60px;
+}
+
+/* line 13, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_layout.scss */
+.page-section {
+  margin-bottom: 30px;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+/* line 46, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_shims.scss */
+.grid-row:after, .diff .revision-dates:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+#wrapper {
+  max-width: 960px;
+  margin: 0 15px;
+}
+
+@media (min-width: 641px) {
+  /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+  #wrapper {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 1020px) {
+  /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+  #wrapper {
+    margin: 0 auto;
+  }
+}
+
+/* line 60, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/toolkit/_grid_layout.scss */
+.grid-row {
+  margin: 0 -15px;
+}
+
+/* line 7, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+.column-one-whole {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 7, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+  .column-one-whole {
+    float: left;
+    width: 100%;
+  }
+}
+
+/* line 11, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+.column-one-half {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 11, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+  .column-one-half {
+    float: left;
+    width: 50%;
+  }
+}
+
+/* line 15, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+.column-one-third {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 15, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+  .column-one-third {
+    float: left;
+    width: 33.33333%;
+  }
+}
+
+/* line 19, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+.column-two-thirds {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 19, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+  .column-two-thirds {
+    float: left;
+    width: 66.66667%;
+  }
+}
+
+/* line 23, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+.column-three-quarters {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 23, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_grids.scss */
+  .column-three-quarters {
+    float: left;
+    width: 75%;
+  }
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_service-id.scss */
+.service-id {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.14286;
+  font-weight: 400;
+  text-transform: none;
+  padding: 5px 10px;
+  margin: 0 5px 0 0;
+  display: inline-block;
+  background: #f8f8f8;
+  border: 1px solid #dee0e2;
+  color: #0b0c0c;
+}
+
+@media (min-width: 641px) {
+  /* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_service-id.scss */
+  .service-id {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+/* line 11, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_service-id.scss */
+.service-id span {
+  padding-right: 5px;
+}
+
+/* line 15, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_service-id.scss */
+.service-id span:last-child {
+  padding-right: 0;
+}
+
+/* line 3, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-column {
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  min-height: 105px;
+  min-width: 2em;
+  margin: 0 10px;
+  vertical-align: bottom;
+}
+
+/* line 16, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-column:first-child {
+  margin-left: 0;
+}
+
+/* line 20, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-column label {
+  display: block;
+  width: 8em;
+}
+
+/* line 27, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-input, .pricing .pricing-input-with-unit, .pricing .pricing-input-select {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+/* line 40, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-input-with-unit {
+  padding-left: 1.6em;
+}
+
+/* line 45, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-input-select {
+  margin: 0 0 15px 2%;
+  width: 98%;
+  font-size: 19px;
+}
+
+/* line 59, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-unit {
+  color: #bfc1c3;
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+  z-index: 20;
+  font-weight: bold;
+}
+
+/* line 68, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.pricing .pricing-preposition {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+/* line 79, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_pricing.scss */
+.visually-hidden {
+  position: absolute;
+  left: -999em;
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+.service-title {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+  .service-title {
+    float: left;
+    width: 66.66667%;
+  }
+}
+
+/* line 5, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+.service-view {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  /* line 5, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+  .service-view {
+    float: left;
+    width: 33.33333%;
+  }
+}
+
+/* line 9, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+.service-view a {
+  background: #2e8aca;
+  display: block;
+  padding: 6px 0;
+  color: #fff;
+  margin: 30px 0 0 0;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+}
+
+@media (min-width: 641px) {
+  /* line 9, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+  .service-view a {
+    margin: 75px 0 0 30px;
+  }
+}
+
+@media (min-width: 641px) {
+  /* line 9, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+  .service-view a {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+/* line 24, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_service.scss */
+.service-view a:hover {
+  background: #005ea5;
+}
+
+/* line 3, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_edit_section.scss */
+.edit-section button {
+  margin-top: 30px;
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_audits.scss */
+table.summary-item-body thead tr {
+  position: static;
+  text-align: left;
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff {
+  margin-bottom: 30px;
+}
+
+/* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff .diff-title {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 641px) {
+  /* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff .diff-title {
+    font-size: 27px;
+    line-height: 1.11111;
+  }
+}
+
+@media (min-width: 641px) {
+  /* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff .diff-title {
+    padding-top: 4px;
+    padding-bottom: 6px;
+  }
+}
+
+/* line 10, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff .revision-dates {
+  margin-bottom: 15px;
+}
+
+/* line 14, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff .revision-dates p {
+  float: none;
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  /* line 14, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff .revision-dates p {
+    float: left;
+    width: 50%;
+  }
+}
+
+/* line 22, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff .revision-dates p .revision-date-type {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+/* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  /* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table {
+    font-size: 14px;
+    line-height: 1.42857;
+  }
+}
+
+@media (min-width: 641px) {
+  /* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+  }
+}
+
+@media (min-width: 641px) and (min-width: 641px) {
+  /* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table {
+    font-size: 19px;
+    line-height: 1.31579;
+  }
+}
+
+/* line 37, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table caption {
+  font-weight: bold;
+  text-align: left;
+  padding: 30px 0 10px;
+}
+
+/* line 43, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table tbody tr {
+  border-bottom: 6px solid white;
+}
+
+/* line 47, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td {
+  padding-top: 3px;
+  padding-bottom: 4px;
+  vertical-align: top;
+  border-right: none;
+}
+
+@media (min-width: 641px) {
+  /* line 47, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td {
+    border-right: 5px solid white;
+  }
+}
+
+/* line 56, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.removal {
+  background-color: #FEE5E5;
+}
+
+/* line 59, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.removal strong {
+  background-color: #FDABAB;
+  font-weight: normal;
+}
+
+/* line 64, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.addition {
+  background-color: #E5FEE5;
+}
+
+/* line 67, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.addition strong {
+  background-color: #ABFDAB;
+  font-weight: normal;
+}
+
+/* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.line-number {
+  font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  text-align: right;
+  float: left;
+  clear: both;
+  background-color: transparent;
+  width: 3%;
+  padding-right: 1%;
+  border-right: none;
+}
+
+@media (min-width: 641px) {
+  /* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-number {
+    font-size: 14px;
+    line-height: 1.42857;
+  }
+}
+
+@media (min-width: 641px) {
+  /* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-number {
+    font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    float: none;
+  }
+}
+
+@media (min-width: 641px) and (min-width: 641px) {
+  /* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-number {
+    font-size: 19px;
+    line-height: 1.31579;
+  }
+}
+
+@media (min-width: 641px) {
+  /* line 90, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-number-removal {
+    background-color: #FEE5E5;
+  }
+  /* line 93, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-number-addition {
+    background-color: #E5FEE5;
+  }
+}
+
+/* line 98, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+.diff table td.line-content {
+  width: 95%;
+  padding-left: 1%;
+  float: right;
+}
+
+@media (min-width: 641px) {
+  /* line 98, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
+  .diff table td.line-content {
+    width: 41%;
+    float: none;
+  }
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen {
+  position: relative;
+  background: #005ea5;
+  box-shadow: 0 0 0 100em #005ea5;
+  padding-bottom: 100em;
+  z-index: 1000;
+}
+
+/* line 9, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-body,
+#framework-statistics-big-screen .summary-item-heading {
+  color: #fff;
+}
+
+/* line 14, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-body {
+  margin-bottom: 100%;
+}
+
+/* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 53px;
+  line-height: 1.03774;
+  font-weight: 700;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+  #framework-statistics-big-screen .summary-item-field {
+    font-size: 80px;
+    line-height: 1;
+  }
+}
+
+/* line 22, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field-headings-visible {
+  border-top: 3px solid #005ea5;
+}
+
+/* line 26, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field-first,
+#framework-statistics-big-screen .summary-item-field-heading-first {
+  display: none;
+}
+
+/* line 31, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field-heading {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  /* line 31, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+  #framework-statistics-big-screen .summary-item-field-heading {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+/* line 35, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field-heading .key {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  margin: 0 0 -1px 0.1em;
+}
+
+/* line 45, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-row {
+  border-top: none;
+}
+
+/* line 49, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen table.summary-item-body {
+  border-bottom: 3px solid #dee0e2;
+}
+
+/* line 53, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen table.summary-item-body tbody td {
+  padding-top: 0;
+}
+
+/* line 57, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-row {
+  display: none;
+}
+
+/* line 61, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-row:last-child {
+  display: table-row;
+}
+
+/* line 65, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-row td {
+  position: relative;
+  left: -25px;
+}
+
+/* line 74, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+#framework-statistics-big-screen .summary-item-field-headings-visible th {
+  position: relative;
+  left: -25px;
+}
+
+/* line 83, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
+.statistics-chart {
+  margin: 0 -10px -8px -12px;
+}
+
+/* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_view_declaration.scss */
+.declaration-summary thead .summary-item-field-heading-first {
+  width: 60%;
+}
+
+/*-- Chart --*/
+/* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3 svg {
+  font-size: 14px;
+}
+
+/* line 8, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3 path, .c3 line {
+  fill: none;
+  stroke: #000;
+}
+
+/* line 12, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3 text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+/* line 17, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-legend-item-tile, .c3-xgrid-focus, .c3-ygrid, .c3-event-rect, .c3-bars path {
+  shape-rendering: crispEdges;
+}
+
+/* line 20, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arc path {
+  stroke: #fff;
+}
+
+/* line 23, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arc text {
+  fill: #fff;
+  font-size: 14px;
+}
+
+/*-- Axis --*/
+/*-- Grid --*/
+/* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-grid line {
+  stroke: #aaa;
+}
+
+/* line 32, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-grid text {
+  fill: #aaa;
+}
+
+/* line 35, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-xgrid, .c3-ygrid {
+  stroke-dasharray: 3 3;
+}
+
+/*-- Text on Chart --*/
+/* line 39, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-text.c3-empty {
+  fill: #808080;
+  font-size: 2em;
+}
+
+/*-- Line --*/
+/* line 44, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-line {
+  stroke-width: 3px;
+}
+
+/*-- Point --*/
+/* line 49, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-circle {
+  display: none;
+}
+
+/* line 53, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-circle._expanded_ {
+  stroke-width: 1px;
+  stroke: white;
+}
+
+/* line 57, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-selected-circle {
+  fill: white;
+  stroke-width: 2px;
+}
+
+/*-- Bar --*/
+/* line 62, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-bar {
+  stroke-width: 0;
+}
+
+/* line 65, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-bar._expanded_ {
+  fill-opacity: 0.75;
+}
+
+/*-- Focus --*/
+/* line 69, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-target.c3-focused {
+  opacity: 1;
+}
+
+/* line 72, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-target.c3-focused path.c3-line, .c3-target.c3-focused path.c3-step {
+  stroke-width: 2px;
+}
+
+/* line 75, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-target.c3-defocused {
+  opacity: 0.3 !important;
+}
+
+/*-- Region --*/
+/* line 79, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-region {
+  fill: steelblue;
+  fill-opacity: 0.1;
+}
+
+/*-- Brush --*/
+/* line 84, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-brush .extent {
+  fill-opacity: 0.1;
+}
+
+/*-- Select - Drag --*/
+/*-- Legend --*/
+/* line 89, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-legend-item {
+  font-size: 12px;
+}
+
+/* line 92, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-legend-item-hidden {
+  opacity: 0.15;
+}
+
+/* line 95, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-legend-background {
+  opacity: 0.75;
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 1;
+}
+
+/*-- Tooltip --*/
+/* line 102, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip-container {
+  z-index: 10;
+}
+
+/* line 105, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  box-shadow: 7px 7px 12px -9px rgba(11, 12, 12, 0.1);
+}
+
+/* line 114, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip tr {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 118, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip th {
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* line 125, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip td {
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 12px;
+  border-top: 1px solid #bfc1c3;
+}
+
+/* line 132, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip td > span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+}
+
+/* line 138, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-tooltip td.value {
+  text-align: right;
+}
+
+/*-- Area --*/
+/* line 142, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-area {
+  stroke-width: 0;
+  opacity: 0.3;
+}
+
+/*-- Arc --*/
+/* line 147, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arcs-title {
+  dominant-baseline: middle;
+  font-size: 1.3em;
+}
+
+/* line 151, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arcs .c3-chart-arcs-background {
+  fill: #e0e0e0;
+  stroke: none;
+}
+
+/* line 155, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+  fill: #000;
+  font-size: 16px;
+}
+
+/* line 159, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arcs .c3-chart-arcs-gauge-max {
+  fill: #777;
+}
+
+/* line 162, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: #777;
+}
+
+/* line 165, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_c3.scss */
+.c3-chart-arc .c3-gauge-value {
+  fill: #000;
+  /*  font-size: 28px !important;*/
+}

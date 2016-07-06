@@ -13,7 +13,7 @@ var path = {
    src: 'src/',
   html: 'src/**/*.html',
     js: 'src/js/*.js',
-  sass: 'src/sass/**/*.scss',
+  sass: 'src/sass/*.scss',
    css: 'src/css/',
 }
 
@@ -32,7 +32,7 @@ gulp.task('server', function(){
 
 // compile sass
 gulp.task('sass', function(){
-   gulp.src("src/sass/styles.scss")
+   gulp.src(path.sass)
     .pipe(sass({
       outputStyle: [ 'expanded' ],
       sourceComments: 'normal'

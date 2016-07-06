@@ -1,0 +1,23 @@
+// ==============================================
+// cirrus-admin styles
+// ==============================================
+
+// Admin app styles
+@import "admin/_reset";
+@import "admin/_layout";
+@import "admin/_grids";
+
+@import "admin/patterns/service-id";
+@import "admin/patterns/pricing";
+
+
+// Layout of specific views
+@import "admin/views/view_service";
+@import "admin/views/edit_section";
+@import "admin/views/view_audits";
+@import "admin/_diff.scss";
+@import "admin/views/statistics";
+@import "admin/views/view_declaration";
+
+// Graphs
+@import "admin/_c3";

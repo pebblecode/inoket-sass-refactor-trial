@@ -11,7 +11,7 @@
       (function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document,c="appendChild",a=d.createElement("style");a[c](d.createTextNode("@-ms-viewport{width:auto!important}"));d.getElementsByTagName("head")[0][c](a);}})();
     </script>
 
-    <!--[if gt IE 8]><!--><link href="/static/stylesheets/govuk-template.css?0.14.1" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
+    <!--[if gt IE 8]><!--><link href="/new-css/styles.css" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
     <!--[if IE 6]><link href="static/stylesheets/govuk-template-ie6-0.14.1.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
     <!--[if IE 7]><link href="static/stylesheets/govuk-template-ie7-0.14.1.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
     <!--[if IE 8]><link href="static/stylesheets/govuk-template-ie8-0.14.1.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
@@ -55,9 +55,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="/static/images/opengraph-image.png?0.14.1">
 
-    
+
   <!--[if gt IE 8]><!-->
-  <link type="text/css" rel="stylesheet" media="screen" href="/static/stylesheets/application.css?d19bdcffd7bd06c9fb212b544ef34aed" />
+  <link type="text/css" rel="stylesheet" media="screen" href="/new-css/styles.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/new-css/buyer.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/new-css/supplier.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/new-css/admin.css" />
 <!--<![endif]-->
 <!--[if IE 6]>
   <link type="text/css" rel="stylesheet" media="screen" href="static/stylesheets/application-ie6-25702c2d4ba96ed556523ff25284c844.css" />
@@ -74,7 +77,7 @@
   <body class="">
     <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    
+
 
     <div id="skiplink-container">
       <div>
@@ -84,7 +87,7 @@
 
     <div id="global-cookie-message">
 
-        
+
   <p>GOV.UK uses cookies to make the site simpler. <a href="cookies.html">Find out more about cookies</a></p>
 
 
@@ -97,18 +100,18 @@
           <div class="header-logo">
           <a class="home" href="index.html"><h2 class="logo">Inoket</h2></a>
           </div>
-          
+
         </div>
-        
+
   <div class="header-proposition">
   <div class="content">
     <a href="order-service_id=1234567890123476&service_title=Bramble+Hub+Peru+Consulting+-+IT+Service+Consumption+Review&supplierName=Fadel+-+Kertzmann.html#proposition-links" class="js-header-toggle menu">Menu</a>
     <nav id="proposition-menu">
 
       <ul id="login-links" class="login">
-        
+
         <li><a class="home" href="login.html">Log in</a></li>
-        
+
         <li><a href="suppliers/create.html">Create supplier account</a></li>
       </ul>
 
@@ -126,14 +129,14 @@
     <!--end header-->
 
 
-    
+
 
     <div id="global-header-bar"></div>
     <!--end global-header-bar-->
 
-    
-    
-    
+
+
+
 
   <!--
 <div class="phase-banner">
@@ -143,28 +146,28 @@
 </div>
  -->
 
-  
-  
+
+
     <div id="global-breadcrumb" class="header-context">
   <nav>
     <ol class="group" role="breadcrumbs">
         <li><a href="index.html">Catalogue</a></li>
-        
-      
+
+
         <li><a href="inoket/services/1234567890123476.html">Bramble Hub Peru Consulting - IT Service Consumption Review</a></li>
-        
-      
+
+
         <li>Order</li>
-        
-      
+
+
     </ol>
   </nav>
 </div>
-  
+
 
   <div id="wrapper">
     <main id="content" role="main">
-      
+
 <div class="grid-row">
   <header class="page-heading-smaller">
     <h1>Place an Order</h1>
@@ -186,41 +189,41 @@
 
       <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="##c065241b9bf45a5dad477544bdb7d410cff9f578"></div>
 
-      
+
         <div class="question" id="email_address">
           <label class="question-heading-with-hint" for="input_email_address">1. Email address</label>
           <p class="hint">
             We will use this email address to track your order, please enter the organisation specific email address of the person responsible for this order. e.g. If you worked for Inoket it might be - james@inoket.com
           </p>
-          
+
           <input autocomplete="off" class="text-box" id="input_email_address" name="email_address" type="text" value="">
         </div>
-        
 
-        
+
+
           <div class="question" id="po_number">
             <label class="question-heading-with-hint" for="input_po_number">2. PO Number</label>
             <p class="hint">Enter the purchase order number that you have generated for this order.</p>
-            
+
             <input autocomplete="off" class="text-box" id="input_po_number" name="po_number" type="text" value="">
           </div>
-          
-          
+
+
             <div class="question" id="amount">
               <label class="question-heading-with-hint" for="input_amount">3. Total Amount</label>
               <p class="hint">Enter the total value of the order you would like to place.</p>
-              
+
               <input class="text-box" id="input_amount" min="0.0" name="amount" step="0.01" type="number" value="">
             </div>
-            
-            
+
+
               <div class="question" id="have_read_buyers_guide">
                 <label class="question-heading-with-hint" for="have_read_buyers_guide"></label>
                 <p class="hint">Tick to confirm that you have ensured best value by following the steps outlined in our <a href="index.html">buyer's guide</a></p>
-                
+
                 <input id="have_read_buyers_guide" name="have_read_buyers_guide" type="checkbox" value="y">
               </div>
-              
+
               <button type="submit" class="link-button">Submit Order</button>
     </form>
   </div>
@@ -240,7 +243,7 @@
     <footer class="group js-footer" id="footer" role="contentinfo">
 
       <div class="footer-wrapper">
-        
+
   <!-- <div class="footer-categories">
       <div class="footer-about">
 </div>
@@ -276,7 +279,7 @@
 
         <div class="footer-meta">
          <div class="footer-meta-inner">
-            
+
     <h2 class="visuallyhidden">Support links</h2>
     <ul>
         <li><a href="terms-and-conditions.html" class="terms-and-conditions">Terms and conditions</a></li>
@@ -296,7 +299,7 @@
 
     <script src="static/javascripts/govuk-template-0.14.1.js" type="text/javascript"></script>
 
-    
+
   <script type="text/javascript" src="static/javascripts/application-4e024aa65e0dde85fe02ebf1d1a8f1c4.js" /></script>
 
   </body>

@@ -1,157 +1,93 @@
 // ==============================================
 // global styles
 // ==============================================
-@import "_colours.scss";
-@import "_conditionals.scss";
-@import "_css3.scss";
-@import "_device-pixels.scss";
-@import "_font_stack.scss";
-@import "_grid_layout.scss";
-@import "_measurements.scss";
-@import "_shims.scss";
-@import "_typography.scss";
-@import "_url-helpers.scss";
+@import "toolkit/_colours.scss";
+@import "toolkit/_conditionals.scss";
+@import "toolkit/_css3.scss";
+@import "toolkit/_device-pixels.scss";
+@import "toolkit/_font_stack.scss";
+@import "toolkit/_grid_layout.scss";
+@import "toolkit/_measurements.scss";
+@import "toolkit/_shims.scss";
+@import "toolkit/_typography.scss";
+@import "toolkit/_url-helpers.scss";
+
+@import "toolkit/design-patterns/_alpha-beta.scss";
+@import "toolkit/design-patterns/_buttons.scss";
+@import "toolkit/design-patterns/_media-player.scss";
 
 
 // ==============================================
 // cirrus-frontend-toolkit styles
 // ==============================================
-@import "frontend-toolkit/_breadcrumb.scss";
-@import "frontend-toolkit/_browse-list.scss";
-@import "frontend-toolkit/_buttons.scss";
-@import "frontend-toolkit/_contact-details.scss";
-@import "frontend-toolkit/_digital-marketplace-colours.scss";
-@import "frontend-toolkit/_document.scss";
-@import "frontend-toolkit/_framework-notice.scss";
-@import "frontend-toolkit/_grids.scss";
-@import "frontend-toolkit/_inoket-colours.scss";
-@import "frontend-toolkit/_instruction-list.scss";
-@import "frontend-toolkit/_link-button.scss";
-@import "frontend-toolkit/_not-ie-conditional.scss";
-@import "frontend-toolkit/_notification-banners.scss";
-@import "frontend-toolkit/_page-headings.scss";
-@import "frontend-toolkit/_phase-banner.scss";
-@import "frontend-toolkit/_previous-next-navigation.scss";
-@import "frontend-toolkit/_secondary-action-link.scss";
-@import "frontend-toolkit/_service-id.scss";
-@import "frontend-toolkit/_temporary-message.scss";
+@import "toolkit/frontend-toolkit/_breadcrumb.scss";
+@import "toolkit/frontend-toolkit/_browse-list.scss";
+@import "toolkit/frontend-toolkit/_buttons.scss";
+@import "toolkit/frontend-toolkit/_contact-details.scss";
+@import "toolkit/frontend-toolkit/_digital-marketplace-colours.scss";
+@import "toolkit/frontend-toolkit/_document.scss";
+@import "toolkit/frontend-toolkit/_framework-notice.scss";
+@import "toolkit/frontend-toolkit/_grids.scss";
+@import "toolkit/frontend-toolkit/_inoket-colours.scss";
+@import "toolkit/frontend-toolkit/_instruction-list.scss";
+@import "toolkit/frontend-toolkit/_link-button.scss";
+@import "toolkit/frontend-toolkit/_not-ie-conditional.scss";
+@import "toolkit/frontend-toolkit/_notification-banners.scss";
+@import "toolkit/frontend-toolkit/_page-headings.scss";
+@import "toolkit/frontend-toolkit/_phase-banner.scss";
+@import "toolkit/frontend-toolkit/_previous-next-navigation.scss";
+@import "toolkit/frontend-toolkit/_secondary-action-link.scss";
+@import "toolkit/frontend-toolkit/_service-id.scss";
+@import "toolkit/frontend-toolkit/_temporary-message.scss";
 
-@import "frontend-toolkit/forms/_hint.scss";
-@import "frontend-toolkit/forms/_keyword-search.scss";
-@import "frontend-toolkit/forms/_list-entry.scss";
-@import "frontend-toolkit/forms/_option-select.scss";
-@import "frontend-toolkit/forms/_pricing.scss";
-@import "frontend-toolkit/forms/_questions.scss";
-@import "frontend-toolkit/forms/_selection-buttons.scss";
-@import "frontend-toolkit/forms/_summary.scss";
-@import "frontend-toolkit/forms/_textboxes.scss";
-@import "frontend-toolkit/forms/_upload.scss";
-@import "frontend-toolkit/forms/_validation.scss";
-@import "frontend-toolkit/forms/_word-counter.scss";
+@import "toolkit/frontend-toolkit/forms/_hint.scss";
+@import "toolkit/frontend-toolkit/forms/_keyword-search.scss";
+@import "toolkit/frontend-toolkit/forms/_list-entry.scss";
+@import "toolkit/frontend-toolkit/forms/_option-select.scss";
+@import "toolkit/frontend-toolkit/forms/_pricing.scss";
+@import "toolkit/frontend-toolkit/forms/_questions.scss";
+@import "toolkit/frontend-toolkit/forms/_selection-buttons.scss";
+@import "toolkit/frontend-toolkit/forms/_summary.scss";
+@import "toolkit/frontend-toolkit/forms/_textboxes.scss";
+@import "toolkit/frontend-toolkit/forms/_upload.scss";
+@import "toolkit/frontend-toolkit/forms/_validation.scss";
+@import "toolkit/frontend-toolkit/forms/_word-counter.scss";
 
-@import "frontend-toolkit/search/_search-result.scss";
-@import "frontend-toolkit/search/_search-summary.scss";
+@import "toolkit/frontend-toolkit/search/_search-result.scss";
+@import "toolkit/frontend-toolkit/search/_search-summary.scss";
 
-@import "frontend-toolkit/shared_placeholders/_temporary-messages.scss";
-@import "frontend-toolkit/shared_placeholders/_visuallyhidden.scss";
+@import "toolkit/frontend-toolkit/shared_placeholders/_temporary-messages.scss";
+@import "toolkit/frontend-toolkit/shared_placeholders/_visuallyhidden.scss";
 
-@import "frontend-toolkit/shared_scss/_dmspeak.scss";
-@import "frontend-toolkit/shared_scss/_lists.scss";
-@import "frontend-toolkit/shared_scss/_reset.scss";
+@import "toolkit/frontend-toolkit/shared_scss/_dmspeak.scss";
+@import "toolkit/frontend-toolkit/shared_scss/_lists.scss";
+@import "toolkit/frontend-toolkit/shared_scss/_reset.scss";
 
-@import "frontend-toolkit/pages-builder/index.css";
-@import "frontend-toolkit/pages-builder/grids/index.css";
-@import "frontend-toolkit/pages-builder/forms/index.css";
+@import "toolkit/frontend-toolkit/pages-builder/index.css";
+@import "toolkit/frontend-toolkit/pages-builder/grids/index.css";
+@import "toolkit/frontend-toolkit/pages-builder/forms/index.css";
 
 // ==============================================
 // cirrus-base-template styles
 // ==============================================
-@import "base/styleguide/_colours.scss";
-@import "base/styleguide/_print.scss";
+@import "toolkit/base/styleguide/_colours.scss";
+// @import "toolkit/base/styleguide/_print.scss";
 
-@import "base/_accessibility.scss";
-@import "base/_basic.scss";
-@import "base/_core-print.scss";
-@import "base/_footer.scss";
-@import "base/_header.scss";
-@import "base/fonts-ie8.css";
-@import "base/fonts.css";
-@import "base/govuk-template-ie6.scss";
-@import "base/govuk-template-ie7.scss";
-@import "base/govuk-template-ie8.scss";
-@import "base/govuk-template-print.scss";
-@import "base/govuk-template.scss";
+@import "toolkit/base/_core-print.scss";
+@import "toolkit/base/fonts-ie8.css";
+@import "toolkit/base/fonts.css";
 
+@import "toolkit/base/_accessibility.scss";
+@import "toolkit/base/_basic.scss";
+@import "toolkit/base/_footer.scss";
+@import "toolkit/base/_header.scss";
 
-// ==============================================
-// cirrus-buyer-frontend styles
-// ==============================================
-@import "buyer/_brief_submission.scss";
-@import "buyer/_footer.scss";
-@import "buyer/_forms.scss";
-@import "buyer/_table.scss";
-@import "buyer/_text.scss";
-@import "buyer/_notice.scss";
-@import "buyer/_service-page.scss";
-@import "buyer/_index-page.scss";
-@import "buyer/_search-page.scss";
-@import "buyer/_pagination.scss";
-@import "buyer/_publication.scss";
-@import "buyer/_supplier-a-to-z.scss";
-@import "buyer/_atoz_navigation.scss";
-@import "buyer/_error-pages.scss";
-
-//Gov UK overrides - REMOVE?
-@import "buyer/_phase_banner.scss";
-@import "buyer/_reset.scss";
-
-@import "buyer/application.scss";
-
-// ==============================================
-// cirrus-supplier-frontend styles
-// ==============================================
-@import "supplier/_text.scss";
-@import "supplier/_footer.scss";
-@import "supplier/_forms.scss";
-
-@import "supplier/_single-question-page.scss";
-@import "supplier/_single-summary-page.scss";
-
-@import "supplier/_service-status.scss";
-@import "supplier/_view-service-link.scss";
-@import "supplier/_framework-application.scss";
-@import "supplier/_assurance-question.scss";
-@import "supplier/_supplier-declaration.scss";
-@import "supplier/_updates.scss";
-@import "supplier/_service_submission.scss";
-@import "supplier/_brief-response.scss";
-
-@import "supplier/_create_supplier.scss";
-
-//Gov UK overrides - REMOVE?
-@import "supplier/_phase_banner.scss";
-@import "supplier/_reset.scss";
-
-// ==============================================
-// cirrus-admin styles
-// ==============================================
-
-// Admin app styles
-@import "admin/_reset";
-@import "admin/_layout";
-@import "admin/_grids";
-
-@import "admin/patterns/service-id";
-@import "admin/patterns/pricing";
+// @import "toolkit/base/govuk-template-ie6.scss";
+// @import "toolkit/base/govuk-template-ie7.scss";
+// @import "toolkit/base/govuk-template-ie8.scss";
+// @import "toolkit/base/govuk-template-print.scss";
+// @import "toolkit/base/govuk-template.scss";
 
 
-// Layout of specific views
-@import "admin/views/view_service";
-@import "admin/views/edit_section";
-@import "admin/views/view_audits";
-@import "admin/_diff.scss";
-@import "admin/views/statistics";
-@import "admin/views/view_declaration";
 
-// Graphs
-@import "admin/_c3";
+
