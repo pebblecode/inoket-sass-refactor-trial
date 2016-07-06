@@ -117,7 +117,7 @@ table {
 
 /* line 103, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_reset.scss */
 body {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 16px;
   line-height: 1.25;
   font-weight: 400;
@@ -315,7 +315,7 @@ body {
 
 /* line 1, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/patterns/_service-id.scss */
 .service-id {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 14px;
   line-height: 1.14286;
   font-weight: 400;
@@ -451,7 +451,7 @@ body {
   padding: 6px 0;
   color: #fff;
   margin: 30px 0 0 0;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
@@ -497,7 +497,7 @@ table.summary-item-body thead tr {
 
 /* line 4, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
 .diff .diff-title {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 20px;
   line-height: 1.11111;
   font-weight: 400;
@@ -551,7 +551,7 @@ table.summary-item-body thead tr {
 
 /* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
 .diff table {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 400;
@@ -570,7 +570,7 @@ table.summary-item-body thead tr {
 @media (min-width: 641px) {
   /* line 29, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
   .diff table {
-    font-family: "nta", Arial, sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
@@ -637,7 +637,7 @@ table.summary-item-body thead tr {
 
 /* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
 .diff table td.line-number {
-  font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 400;
@@ -662,7 +662,7 @@ table.summary-item-body thead tr {
 @media (min-width: 641px) {
   /* line 73, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/_diff.scss */
   .diff table td.line-number {
-    font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
@@ -727,7 +727,7 @@ table.summary-item-body thead tr {
 
 /* line 18, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
 #framework-statistics-big-screen .summary-item-field {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 53px;
   line-height: 1.03774;
   font-weight: 700;
@@ -755,7 +755,7 @@ table.summary-item-body thead tr {
 
 /* line 31, /Users/aislingfoley/Sites/cirrus/inoket-sass-refactor-trial/src/sass/admin/views/_statistics.scss */
 #framework-statistics-big-screen .summary-item-field-heading {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;

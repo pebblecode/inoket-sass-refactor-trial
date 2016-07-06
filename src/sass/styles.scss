@@ -63,9 +63,6 @@
 @import "toolkit/frontend-toolkit/shared_scss/_lists.scss";
 @import "toolkit/frontend-toolkit/shared_scss/_reset.scss";
 
-@import "toolkit/frontend-toolkit/pages-builder/index.css";
-@import "toolkit/frontend-toolkit/pages-builder/grids/index.css";
-@import "toolkit/frontend-toolkit/pages-builder/forms/index.css";
 
 // ==============================================
 // cirrus-base-template styles
@@ -74,8 +71,6 @@
 // @import "toolkit/base/styleguide/_print.scss";
 
 @import "toolkit/base/_core-print.scss";
-@import "toolkit/base/fonts-ie8.css";
-@import "toolkit/base/fonts.css";
 
 @import "toolkit/base/_accessibility.scss";
 @import "toolkit/base/_basic.scss";
